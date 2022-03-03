@@ -1,0 +1,1 @@
+  ### Created a simple Posts App Using [JSONPlaceholder](https://jsonplaceholder.typicode.com/) and  [Reqres](https://reqres.in/) for backend API use.

@@ -1,0 +1,61 @@
+.heading {
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	font-size: x-large;
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 65%;
+}
+.inputContainer {
+	line-height: 1.5rem;
+	font-size: medium;
+	font-weight: 300;
+	font-family: "Inter", sans-serif;
+}
+
+
+.inputField{
+border-radius: 8px;
+outline: none;
+border:1px solid rgb(180, 180, 180);
+height: 2rem;
+padding: 0.2rem;;
+}
+.inputField:focus{
+  border: solid 1px rgba(47, 99, 211, 0.87);
+}
+.buttonContainer{
+  margin: 1rem 0;
+  width:70%;
+  display: flex;
+  justify-content: center;
+
+}
+.loginBtn{
+  width:100%;
+  padding:0.75rem 3rem;
+  color: rgba(255, 255, 255, 0.863);
+  background-color: #ff5622ef;
+	font-family: "Inter", sans-serif;
+  font-size: medium;
+	font-weight: 500;
+  cursor: pointer;
+  border: solid 1px rgb(122, 118, 118);
+  border-radius: 8px;
+}
+.loginBtn:hover{
+  background-color: #ff5622d0;
+
+}
+.loginBtn:focus{
+  outline: solid 1px rgba(0, 0, 255, 0.589);
+}
+
